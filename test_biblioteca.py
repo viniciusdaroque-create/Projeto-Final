@@ -1,5 +1,5 @@
 import pytest
-from projeto_final import livros, usuarios, emprestimos, cadastrar_livro, remover_livro, emprestar_livro
+from biblioteca import livros, usuarios, emprestimos, cadastrar_livro, remover_livro, emprestar_livro
 
 
 @pytest.fixture(autouse=True)
